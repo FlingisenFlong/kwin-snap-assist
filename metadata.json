@@ -1,0 +1,21 @@
+{
+    "KPackageStructure": "KWin/Script",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "superfintling"
+            }
+        ],
+        "Category": "Window Management",
+        "Description": "After you snap a window to a screen half or quarter, shows a picker of your other open windows so you can fill the leftover space with one click — like Snap Assist on Windows.",
+        "EnabledByDefault": false,
+        "Icon": "preferences-system-windows",
+        "Id": "snap-assist",
+        "License": "MIT",
+        "Name": "Snap Assist",
+        "Version": "1.0"
+    },
+    "X-Plasma-API": "declarativescript",
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "X-Plasma-MainScript": "ui/main.qml"
+}
